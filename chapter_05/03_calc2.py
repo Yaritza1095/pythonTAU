@@ -1,4 +1,4 @@
-on = True
+calc_on = True
 
 def add():
     a = float(input("Enter a number. "))
@@ -20,7 +20,7 @@ def divide():
     b = float(input("Enter another number. "))
     print(a / b)
 # enclose selection into while loop
-while on:
+while calc_on:
     operation = input("Please type +, -, *, /, or q: ")
     if operation == '+':
         add()
